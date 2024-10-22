@@ -195,3 +195,10 @@ blockquote {
     color: #ff4b4b;
     border-radius: 5px;
 }
+
+.headshot {
+    width: 150px; /* Adjust width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%; /* Make it circular */
+    margin: 20px 0; /* Add some margin */
+}
