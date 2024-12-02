@@ -6,6 +6,8 @@
 }
 
 /* Body styles */
+
+
 body {
     font-family: Arial, sans-serif; /* Simple and clean font */
     background-color: #fff; /* White background to contrast the red theme */
@@ -128,10 +130,9 @@ blockquote {
     color: white;
     padding: 20px;
     text-align: center;
+    position: static; /* Change from fixed to static */
     width: 100%;
-    position: relative; /* Position relative to document flow */
-    bottom: 0;
-    left: 0;
+    margin-top: auto; /* Ensures it pushes down properly if there's little content */
 }
 
 .footer-content {
