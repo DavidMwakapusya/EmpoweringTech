@@ -14,6 +14,17 @@ body {
     padding: 20px; /* General padding */
 }
 
+/* Ensure content pushes footer down */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.about-container {
+    flex: 1; /* Ensures this section expands to push the footer */
+}
+
 /* Home container */
 .home-container {
     width: 100%;
@@ -117,10 +128,10 @@ blockquote {
     color: white;
     padding: 20px;
     text-align: center;
-    position: fixed;
-    left: 0;
+    width: 100%;
+    position: relative; /* Position relative to document flow */
     bottom: 0;
-    width: 100%
+    left: 0;
 }
 
 .footer-content {
@@ -162,6 +173,7 @@ blockquote {
 .footer-nav a:hover {
     text-decoration: underline;
 }
+
 
 /* Main header styles */
 .main-header {

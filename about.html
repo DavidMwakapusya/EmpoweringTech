@@ -5,8 +5,25 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us - Empowering Tech</title>
-    <link rel="stylesheet" href="styles.css"> <!-- External stylesheet link -->
+    <link rel="stylesheet" href="styles.css">
 </head>
+<style>
+    /*Header*/
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+        }
+</style>
+<!-- Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-C55M7H1N8T"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-C55M7H1N8T');
+</script>
 
 <body>
     <!-- Header with navigation -->
@@ -30,18 +47,42 @@
 
         <section class="david-journey">
             <h2>David's Journey</h2>
-              <img src="david-headshot.jpg" alt="David Mwakapusya" class="headshot"> <!-- Embedding headshot -->
-              <p>"I'm David Mwakapusya, and Springfield, Massachusetts, is where my story began. Through sports and technology, I realized my potential, and now I want to pass that on to the next generation."</p>
-          </section>
-          
+            <img src="david-headshot.jpg" alt="David Mwakapusya" class="headshot">
+            <p>"I'm David Mwakapusya, and Springfield, Massachusetts, is where my story began. Through sports and technology, I realized my potential, and now I want to pass that on to the next generation."</p>
+        </section>
 
         <section class="vision">
             <h2>Our Vision</h2>
             <p>We envision a Springfield where every young person has access to the guidance and tools they need to excel in sports and technology.</p>
         </section>
+
+        <!-- New Section: Programs -->
+        <section class="programs">
+            <h2>Our Programs</h2>
+            <p>We provide free workshops, mentorship programs, and community events focused on technology and sports. Our initiatives are designed to help youth discover their potential and gain practical skills.</p>
+            <ul>
+                <li>Beginner Coding Classes</li>
+                <li>Sports Leadership Workshops</li>
+                <li>Job Shadowing Opportunities</li>
+            </ul>
+        </section>
+
+        <!-- New Section: Testimonials -->
+        <section class="testimonials">
+            <h2>What People Say</h2>
+            <blockquote>"The mentorship I received through Empowering Tech changed my life. I discovered a passion for coding that I never knew I had." - Sarah J.</blockquote>
+            <blockquote>"This program gave me confidence to pursue a career in sports management. The support has been incredible." - Jamal R.</blockquote>
+        </section>
+
+        <!-- New Interactive Section -->
+        <section class="interactive">
+            <h2>How Can You Help?</h2>
+            <p>Take part in empowering the next generation by contributing to our mission. Whether it's volunteering, donating, or spreading the word, every effort counts.</p>
+            <button class="cta-button" onclick="alert('Thank you for your interest in helping! Visit our Contact Us page for more details.')">Learn More</button>
+        </section>
     </div>
 
-    <!-- Footer with social media links -->
+    <!-- Footer -->
     <footer class="main-footer">
         <div class="footer-content">
             <p>&copy; 2024 Empowering Tech. All Rights Reserved.</p>
@@ -49,7 +90,7 @@
                 <ul>
                     <li><a href="#"><img src="facebook-icon.png" alt="Facebook">Facebook</a></li>
                     <li><a href="#"><img src="twitter-icon.png" alt="Twitter">Twitter</a></li>
-                    <li><a href="#"><img src="instagram-icon.png" alt="Instagram">Twitter</a></li>
+                    <li><a href="#"><img src="instagram-icon.png" alt="Instagram">Instagram</a></li>
                 </ul>
             </nav>
             <nav class="footer-nav">
